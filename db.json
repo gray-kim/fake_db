@@ -1,12 +1,14 @@
 {
     "posts": [
-      { "id": 1, "title": "fake posts with fake api" },
-      { "id": 2, "title": "logo is pokeball" },
-      { "id": 3, "title": "I wanna go Home!!!!" }
+      { "id": 1, "title": "fake posts with fake api", "contents": "blah blah blah" },
+      { "id": 2, "title": "logo is pokeball", "contents": "blah blah blah2"  },
+      { "id": 3, "title": "I wanna go Home!!!!", "contents": "blah blah blah3"  }
     ],
     "comments": [
       { "id": 1, "body": "some comment", "postId": 1 },
-      { "id": 2, "body": "some comment", "postId": 1 }
+      { "id": 2, "body": "test comment", "postId": 1 },
+      { "id": 2, "body": "second comment", "postId": 2 },
+      { "id": 2, "body": "third comment", "postId": 3 }
     ],
     "profile": {
       "name": "gray-kim"
